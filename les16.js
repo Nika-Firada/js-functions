@@ -9,9 +9,9 @@
 }
 console.log(isEven(100));
 */
-const isEven = (value) =>{
-    if (value % 2 == 0){
-        return true;
+const isEven = (value) =>{  ///არ დავაკვირდი პირობას კარგად, მეგონა
+    if (value % 2 == 0){    /// ლუწზე უნდა ყოფილიყო true
+        return true;        /// აღარ ჩავასწორებ ახლა.
     }else{
         return false;
     } 
